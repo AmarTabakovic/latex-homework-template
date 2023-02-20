@@ -13,4 +13,9 @@ Otherwise just modify the Makefile to your preferences.
 ```shell
 $ make
 ```
+
+### Removal of Auxilliary Files
+```shell
+$ make clean
+```
  
