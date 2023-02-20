@@ -4,5 +4,5 @@ all:
 	pdflatex report
 
 clean:
-        rm -rf *.aux *.toc *.log *.out *.bbl *.blg
+	rm -rf *.aux *.toc *.log *.out *.bbl *.blg
 
