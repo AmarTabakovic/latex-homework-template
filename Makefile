@@ -1,7 +1,10 @@
+JOBNAME = homework
+COMPILE = pdflatex -jobname=$(JOBNAME) report
 all:
-	pdflatex report
-	bibtex report
-	pdflatex report
+	$(COMPILE)
+	bibtex $(JOBNAME)
+	$(COMPILE)
+	$(COMPILE)
 
 clean:
 	rm -rf *.aux *.toc *.log *.out *.bbl *.blg
